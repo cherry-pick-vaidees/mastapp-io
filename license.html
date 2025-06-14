@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Licenses - Your App Name</title>
+    <style>
+        /* Basic styling for readability */
+        body {
+            font-family: 'Inter', sans-serif; /* Using Inter font as per guidelines */
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #343a40;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1, h2, h3 {
+            color: #212529;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 5px;
+        }
+        h1 { font-size: 2.2em; text-align: center; margin-bottom: 1em; }
+        h2 { font-size: 1.8em; }
+        h3 { font-size: 1.4em; }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-left: 15px; /* Indent the list for better readability */
+        }
+        li {
+            margin-bottom: 10px;
+            padding: 8px 0;
+        }
+        li strong {
+            color: #0056b3;
+        }
+        pre {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 8px; /* Rounded corners for code blocks */
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 0.9em;
+            line-height: 1.4;
+            color: #495057;
+            margin-top: 1em;
+            margin-bottom: 1.5em;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #dee2e6;
+            margin: 2em 0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                border-radius: 0; /* Remove rounded corners on very small screens for edge-to-edge content */
+            }
+            h1 { font-size: 1.8em; }
+            h2 { font-size: 1.5em; }
+            h3 { font-size: 1.2em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Open Source Licenses for MastApp</h1>
+        <p>This application ("<b>MastApp</b>") utilizes various open-source software components. We are deeply grateful to the open-source community for their invaluable contributions, which make this application possible.</p>
+        <p>Below is a list of the open-source components used, along with their respective licenses and copyright notices. For detailed terms and conditions, please refer to the linked full license texts.</p>
+
+        <h2>Software Components</h2>
+
+        <h3>1. AndroidX Libraries (Core KTX, Lifecycle Runtime KTX, Activity Compose, UI, UI Graphics, UI Tooling Preview, Material3, ViewPager2, etc.)</h3>
+        <ul>
+            <li><strong>Project URL:</strong> <a href="https://developer.android.com/jetpack/androidx" target="_blank">https://developer.android.com/jetpack/androidx</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright The Android Open Source Project</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>2. Android ConstraintLayout</h3>
+        <ul>
+            <li><strong>Version:</strong> 2.2.1</li>
+            <li><strong>Project URL:</strong> <a href="https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout" target="_blank">AndroidX ConstraintLayout</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright The Android Open Source Project</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>3. Android AppCompat Library</h3>
+        <ul>
+            <li><strong>Version:</strong> 1.7.0</li>
+            <li><strong>Project URL:</strong> <a href="https://developer.android.com/jetpack/androidx/releases/appcompat" target="_blank">AndroidX AppCompat</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright The Android Open Source Project</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>4. Google Material Design Components for Android</h3>
+        <ul>
+            <li><strong>Version:</strong> 1.12.0</li>
+            <li><strong>Project URL:</strong> <a href="https://github.com/material-components/material-components-android" target="_blank">https://github.com/material-components/material-components-android</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright 2017 The Android Open Source Project</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>5. Gson (Google JSON Library)</h3>
+        <ul>
+            <li><strong>Version:</strong> 2.10.1</li>
+            <li><strong>Project URL:</strong> <a href="https://github.com/google/gson" target="_blank">https://github.com/google/gson</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright 2008 Google Inc.</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>6. Glide</h3>
+        <ul>
+            <li><strong>Version:</strong> 4.16.0</li>
+            <li><strong>Project URL:</strong> <a href="https://github.com/bumptech/glide" target="_blank">https://github.com/bumptech/glide</a></li>
+            <li><strong>License:</strong> Primarily Apache License, Version 2.0, also BSD and modified MIT.</li>
+            <li><strong>Copyright:</strong> Copyright (c) 2017 Google, Inc.</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>7. Android YouTube Player</h3>
+        <ul>
+            <li><strong>Version:</strong> 12.1.0</li>
+            <li><strong>Project URL:</strong> <a href="https://github.com/PierfrancescoSoffritti/android-youtube-player" target="_blank">https://github.com/PierfrancescoSoffritti/android-youtube-player</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright 2017 Pierfrancesco Soffritti</li>
+            <li><strong>Full License:</b> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>8. PhotoView</h3>
+        <ul>
+            <li><strong>Version:</strong> 2.3.0</li>
+            <li><strong>Project URL:</strong> <a href="https://github.com/Baseflow/PhotoView" target="_blank">https://github.com/Baseflow/PhotoView</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright 2017 Chris Banes and Baseflow GmbH</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>9. Google Firebase Libraries (Analytics, Performance Monitoring, etc.)</h3>
+        <ul>
+            <li><strong>Version (BOM):</strong> 33.14.0</li>
+            <li><strong>Project URL:</strong> <a href="https://firebase.google.com/" target="_blank">https://firebase.google.com/</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright 2018 Google LLC</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <h3>10. Kotlinx Serialization JSON</h3>
+        <ul>
+            <li><strong>Version:</strong> 1.6.0</li>
+            <li><strong>Project URL:</strong> <a href="https://github.com/Kotlin/kotlinx.serialization" target="_blank">https://github.com/Kotlin/kotlinx.serialization</a></li>
+            <li><strong>License:</strong> Apache License, Version 2.0</li>
+            <li><strong>Copyright:</strong> Copyright 2017-2024 JetBrains s.r.o. and Kotlin authors</li>
+            <li><strong>Full License:</strong> <a href="#apache-2-0">See Apache License 2.0 below</a></li>
+        </ul>
+
+        <hr>
+
+        <h2 id="full-license-texts">Full License Texts</h2>
+        <p>For your convenience, the full text of common licenses used in this application is provided below:</p>
+
+        <h3 id="apache-2-0">Apache License, Version 2.0</h3>
+        <pre>
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions.
+
+   "License" shall mean the terms and conditions for use, reproduction,
+   and distribution as defined by Sections 1 through 9 of this document.
+
+   "Licensor" shall mean the copyright owner or entity authorized by
+   the copyright owner that is granting the License.
+
+   "Legal Entity" shall mean the union of the acting entity and all
+   other entities that control, are controlled by, or are under common
+   control with that entity. For the purposes of this definition,
+   "control" means (i) the power, direct or indirect, to cause the
+   direction or management of such entity, whether by contract or
+   otherwise, or (ii) ownership of fifty percent (50%) or more of the
+   outstanding shares, or (iii) beneficial ownership of such entity.
+
+   "You" (or "Your") shall mean an individual or Legal Entity
+   exercising permissions granted by this License.
+
+   "Source" form shall mean the preferred form for making modifications,
+   including but not limited to software source code, documentation
+   source, and configuration files.
+
+   "Object" form shall mean any form resulting from mechanical
+   transformation or translation of a Source form, including but
+   not limited to compiled object code, generated documentation,
+   and conversions to other media types.
+
+   "Work" shall mean the work of authorship, whether in Source or
+   Object form, made available under the License, as indicated by a
+   copyright notice that is included in or attached to the Work
+   (an example is provided in the Appendix below).
+
+   "Derivative Works" shall mean any work, whether in Source or Object
+   form, that is based on (or derived from) the Work and for which the
+   editorial revisions, annotations, elaborations, or other modifications
+   represent, as a whole, an original work of authorship. For the purposes
+   of this License, Derivative Works shall not include works that remain
+   separable from, or merely link (or bind by name) to the interfaces of,
+   the Work and Derivative Works thereof.
+
+   "Contribution" shall mean any work of authorship, including
+   the original version of the Work and any modifications or additions
+   to that Work or Derivative Works thereof, that is intentionally
+   submitted to Licensor for inclusion in the Work by the copyright owner
+   or by an individual or Legal Entity authorized to submit on behalf of
+   the copyright owner. For the purposes of this definition, "submitted"
+   means any form of electronic, verbal, or written communication sent
+   to the Licensor or its representatives, including but not limited to
+   communication on electronic mailing lists, source code control systems,
+   and issue tracking systems that are managed by, or on behalf of, the
+   Licensor for the purpose of discussing and improving the Work, but
+   excluding communication that is conspicuously marked or otherwise
+   designated in writing by the copyright owner as "Not a Contribution."
+
+   "Contributor" shall mean Licensor and any individual or Legal Entity
+   on behalf of whom a Contribution has been received by Licensor and
+   subsequently incorporated within the Work.
+
+2. Grant of Copyright License. Subject to the terms and conditions of
+   this License, each Contributor hereby grants to You a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   copyright license to reproduce, prepare Derivative Works of,
+   publicly display, publicly perform, sublicense, and distribute the
+   Work and such Derivative Works in Source or Object form.
+
+3. Grant of Patent License. Subject to the terms and conditions of
+   this License, each Contributor hereby grants to You a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   (except as stated in this section) patent license to make, have made,
+   use, offer to sell, sell, import, and otherwise transfer the Work,
+   where such license applies only to those patent claims licensable
+   by such Contributor that are necessarily infringed by their
+   Contribution(s) alone or by combination of their Contribution(s)
+   with the Work to which such Contribution(s) was submitted. If You
+   institute patent litigation against any entity (including a
+   cross-claim or counterclaim in a lawsuit) alleging that the Work
+   or a Contribution incorporated within the Work constitutes direct
+   or contributory patent infringement, then any patent licenses
+   granted to You under this License for that Work shall terminate
+   as of the date such litigation is filed.
+
+4. Redistribution. You may reproduce and distribute copies of the
+   Work or Derivative Works thereof in any medium, with or without
+   modifications, and in Source or Object form, provided that You
+   meet the following conditions:
+
+   (a) You must give any other recipients of the Work or Derivative Works
+       a copy of this License; and
+
+   (b) You must cause any modified files to carry prominent notices
+       stating that You changed the files; and
+
+   (c) You must retain, in the Source form of any Derivative Works that
+       You distribute, all copyright, patent, trademark, and attribution
+       notices from the Source form of the Work, excluding those notices that
+       do not pertain to any part of the Derivative Works; and
+
+   (d) If the Work includes a "NOTICE" text file as part of its
+       distribution, then any Derivative Works that You distribute must
+       include a readable copy of such attribution notices contained
+       within such NOTICE file, excluding those notices that do not
+       pertain to any part of the Derivative Works, in at least one
+       of the following places: within a NOTICE text file distributed
+       as part of the Derivative Works; within the Source form or
+       documentation, if provided along with the Derivative Works; or,
+       within a display generated by the Derivative Works, if and
+       wherever such third-party notices normally appear. The contents
+       of the NOTICE file are for informational purposes only and
+       do not modify the License. You may add Your own attribution
+       notices within Derivative Works that You distribute, alongside
+       or as an addition to the NOTICE text from the Work, provided
+       that such additional attribution notices cannot be construed
+       as modifying the License.
+
+   You may add Your own copyright statement to Your modifications and
+   may provide additional or different license terms and conditions
+   for use, reproduction, or distribution of Your modifications, or
+   for any such Derivative Works as a whole, provided Your use,
+   reproduction, and distribution of the Work otherwise complies with
+   the conditions stated in this License.
+
+5. Submission of Contributions. Unless You explicitly state otherwise,
+   any Contribution intentionally submitted for inclusion in the Work
+   by You to the Licensor shall be under the terms and conditions of
+   this License, without any additional terms or conditions.
+   Notwithstanding the above, nothing herein shall supersede or modify
+   the terms of any separate license agreement you may have executed
+   with Licensor regarding such Contributions.
+
+6. Trademarks. This License does not grant permission to use the trade
+   names, trademarks, service marks, or product names of the Licensor,
+   except as required for reasonable and customary use in describing the
+   origin of the Work and reproducing the content of the NOTICE file.
+
+7. Disclaimer of Warranty. Unless required by applicable law or
+   agreed to in writing, Licensor provides the Work (and each
+   Contributor provides its Contributions) on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+   implied, including, without limitation, any warranties or conditions
+   of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+   PARTICULAR PURPOSE. You are solely responsible for determining the
+   appropriateness of using or redistributing the Work and assume any
+   risks associated with Your exercise of permissions under this License.
+
+8. Limitation of Liability. In no event and under no legal theory,
+   whether in tort (including negligence), contract, or otherwise,
+   unless required by applicable law (such as deliberate and grossly
+   negligent acts) or agreed to in writing, shall any Contributor be
+   liable to You for damages, including any direct, indirect, special,
+   incidental, or consequential damages of any character arising as a
+   result of this License or out of the use or inability to use the
+   Work (including but not limited to damages for loss of goodwill,
+   work stoppage, computer failure or malfunction, or any and all
+   other commercial damages or losses), even if such Contributor
+   has been advised of the possibility of such damages.
+
+9. Accepting Warranty or Additional Liability. While redistributing
+   the Work or Derivative Works thereof, You may choose to offer,
+   and charge a fee for, acceptance of support, warranty, indemnity,
+   or other liability obligations and/or rights consistent with this
+   License. However, in accepting such obligations, You may act only
+   on Your own behalf and on Your sole responsibility, not on behalf
+   of any other Contributor, and only if You agree to indemnify,
+   defend, and hold each Contributor harmless for any liability
+   incurred by, or claims asserted against, such Contributor by reason
+   of your accepting any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+
+</pre>
+        <p>Thank you for supporting open source!</p>
+        <p><strong>Developed by:</strong> [vaibi/Vaideeswaran]</p>
+    </div>
+</body>
+</html>
